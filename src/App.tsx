@@ -1,5 +1,5 @@
-import TodoList from './components/List/List';
-import TodoAdd from './components/Add/TodoAdd';
+import TodoList from './components/TodoList/TodoList';
+import TodoAdd from './components/TodoAdd/TodoAdd';
 import 'bootstrap/dist/css/bootstrap.css';
 
 const App = () => {

@@ -22,9 +22,7 @@ const TodoList = () => {
                 <td>{todo.title}</td>
                 <td>{todo.completed ? 'completed' : ''}</td>
                 <td>
-                  <button
-                    onClick={() => toggleTodo(todo.id!)}
-                  >
+                  <button onClick={() => toggleTodo(todo.id!)}>
                     Toggle
                   </button>
                   <button
